@@ -11,26 +11,10 @@ body {
   gap: 20px;
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .slide-box .card {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-}
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .slide-box .card {
-    -ms-flex: 0 0 33.3333%;
-    flex: 0 0 33.3333%;
-    max-width: 33.3333%;
-  }
-}
-@media (min-width: 992px) {
-  .slide-box .card {
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;
-  }
+.slide-box .card {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
 }
 
 .carousel-control-next,
@@ -46,11 +30,6 @@ body {
     right: -70px;
   }
 }
-@media (min-width: 992px) {
-  .carousel-control-next {
-    right: -100px;
-  }
-}
 
 .carousel-control-prev {
   left: 0;
@@ -58,11 +37,6 @@ body {
 @media (min-width: 576px) {
   .carousel-control-prev {
     left: -70px;
-  }
-}
-@media (min-width: 992px) {
-  .carousel-control-prev {
-    left: -100px;
   }
 }
 
